@@ -1,23 +1,4 @@
-# Terraform
 **/.terraform/*
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
-
-# Variable files
-*.tfvars
-*.tfvars.json
-
-# Crash logs
-crash.log
-
-# Documents
-*.doc
-*.docx
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
