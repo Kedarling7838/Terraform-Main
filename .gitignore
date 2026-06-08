@@ -1,12 +1,23 @@
-# Local .terraform directories
+# Terraform
 **/.terraform/*
-
-# Terraform state files
 *.tfstate
 *.tfstate.*
-
-# Terraform lock file
 .terraform.lock.hcl
 
-# documents
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Documents
 *.doc
+*.docx
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
